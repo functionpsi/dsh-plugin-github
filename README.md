@@ -26,7 +26,7 @@ plugin_manager install_bundle @local/dsh-plugin-github
 Or install from npm (once published):
 
 ```bash
-plugin_manager install_bundle dsh-plugin-github
+plugin_manager install_bundle functionpsi/dsh-plugin-github
 ```
 
 ### Manual Installation

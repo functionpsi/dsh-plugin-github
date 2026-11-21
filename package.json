@@ -41,10 +41,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/deepseek-ai/dsh-plugin-github.git"
+    "url": "https://github.com/functionpsi/dsh-plugin-github.git"
   },
   "bugs": {
-    "url": "https://github.com/deepseek-ai/dsh-plugin-github/issues"
+    "url": "https://github.com/functionpsi/dsh-plugin-github/issues"
   },
-  "homepage": "https://github.com/deepseek-ai/dsh-plugin-github#readme"
+  "homepage": "https://github.com/functionpsi/dsh-plugin-github#readme"
 }
