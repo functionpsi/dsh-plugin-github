@@ -152,11 +152,8 @@ export function apply(ctx) {
 				};
 			}
 		});
-		tools.push(tool);
+		
+		// Register the tool with the tools capability
+		ctx.tools.register(tool);
 	});
-
-	return () => {
-		// Tools are automatically unregistered when the plugin is deactivated
-		// via the disposer returned by ctx.tools.register
-	};
 }
