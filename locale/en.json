@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "GitHub Repository operations",
+    "description": "Provides model-facing tools to interact with GitHub repositories, including cloning, pushing, pulling, and fetching.",
+    "detail": "docs/DETAIL.md"
+  }
+}

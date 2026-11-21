@@ -1,0 +1,50 @@
+{
+  "name": "dsh-plugin-github",
+  "version": "1.0.0",
+  "description": "GitHub Repository Operations Plugin for DeepSeek Harness (DSH) - exposes git clone, pull, push, fetch, status, log, branch as model-facing tools",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale",
+    "docs",
+    "icon.svg",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/dsh-shell": "*",
+    "@deepseek-ai/dsh-shell-env": "*",
+    "@deepseek-ai/cordis": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "github",
+    "git",
+    "repository",
+    "tools"
+  ],
+  "author": "DeepSeek Harness Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepseek-ai/dsh-plugin-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepseek-ai/dsh-plugin-github/issues"
+  },
+  "homepage": "https://github.com/deepseek-ai/dsh-plugin-github#readme"
+}
