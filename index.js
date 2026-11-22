@@ -5,7 +5,7 @@ import { defineTool } from "@deepseek-ai/dsh-tools";
  * Exposes GitHub repository operations as model-facing tools.
  */
 
-export const inject = ["shell", "shellEnv"];
+export const inject = ["shell", "shellEnv", "tools"];
 
 function renderGitResult(value) {
 	const lines = [];
